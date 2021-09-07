@@ -1,0 +1,15 @@
+CORS: (cross origin REsorce Sharing) | comparacion de recursos de distintos origenes (establece que no tenga errores al cambiar de diferentes servidores)
+por defecto los navegadores no permiten las peticiones entre servidores crusados por lo cual se debe configurar la accion "Allow-Control-Allow-Origin" para dar permisos a otros dominios de tomar informacion de mi dominio
+
+pasos: 
+- se crea un dominio virtual para alojar el api y se llama en el index
+- se crea la estructura con el patron mvc 
+- se crea la ruta rincipal es donde se haran las peticiones http
+- se hace un controlador para llamar a la ruta principal 
+- el controlador se llama en el index 
+- se hace el archivo .htaccess donde espesifica el tipo de rutas y el index
+- se configura el acceso al servidor (los cors)
+- se crea un modelo el cual sera la conexion a la base de datos 
+- se Hacen las peticiones Get a la base de datos sin filtro 
+- Se hacen las peticiones get a la base de datos con filtro 
+- se hace las peticiones 
